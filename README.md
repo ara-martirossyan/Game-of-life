@@ -16,7 +16,7 @@ Game Of Life
     $ cd src
     /src$ javac -d ../bin *.java
     /src$ cd ../bin
-    /bin$ jar -cvmf mavifest.txt ../game-of-life.jar *.class
+    /bin$ jar -cvmf manifest.txt ../game-of-life.jar *.class
     /bin$ cd ..
     $ java -jar game-of-life.jar
 
